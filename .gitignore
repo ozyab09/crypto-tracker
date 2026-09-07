@@ -1,0 +1,24 @@
+# Live-данные (обновляются cron каждые 5 минут) — в git не попадают
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Окружение
+.env
+.env.*
+
+# Редакторы
+.idea/
+.vscode/
+*.iml
+
+# Логи
+*.log
+
+# OS
+.DS_Store
